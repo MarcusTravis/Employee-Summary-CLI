@@ -3,6 +3,10 @@
 
 ![GitHub](https://img.shields.io/github/repo-size/MarcusTravis/OOP-demo?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/MarcusTravis/OOP-demo?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/MarcusTravis/OOP-demo?style=plastic) ![GitHub](https://img.shields.io/github/license/MarcusTravis/OOP-demo?style=plastic) ![GitHub](https://img.shields.io/github/followers/MarcusTravis?style=social)
 
+## Description
+
+This is Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person.
+
 ## Table of Contents
 
 * [Prerequisites](#prerequisites)
@@ -15,10 +19,6 @@
 * [Authors](#authors)
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
-
-## Description
-
-This is Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person.
 
 ### Prerequisites
 

@@ -15,6 +15,40 @@ const teamMembers = [];
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
+function createTeam() {
+  inquirer
+    .prompt([
+      {
+        name: "addMember",
+        type: "list",
+        message: "Would you like to add a team member?",
+        choices: [
+          "Yes, add a Manager",
+          "Yes, add an Engineer",
+          "Yes, add an Intern",
+          "No my team is complete",
+        ],
+      },
+    ])
+    .then(function (data) {
+      switch (data.addMember) {
+        case "Yes, add a Manager":
+          createManager();
+          break;
+        case "Yes, add an Engineer":
+          createEngineer();
+          break;
+        case "Yes, add an Intern":
+          createIntern();
+          break;
+        case "No my team is complete":
+          buildTeam();
+          break;
+      }
+    });
+}
+createTeam();
+
 function createManager() {
     inquirer
       .prompt([
@@ -53,38 +87,6 @@ function createManager() {
   }
   createManager();
   
-  function createTeam() {
-    inquirer
-      .prompt([
-        {
-          name: "addMember",
-          type: "list",
-          message: "Would you like to add a team member?",
-          choices: [
-            "Yes, add a Manager",
-            "Yes, add an Engineer",
-            "Yes, add an Intern",
-            "No my team is complete",
-          ],
-        },
-      ])
-      .then(function (data) {
-        switch (data.addMember) {
-          case "Yes, add a Manager":
-            createManager();
-            break;
-          case "Yes, add an Engineer":
-            createEngineer();
-            break;
-          case "Yes, add an Intern":
-            createIntern();
-            break;
-          case "No my team is complete":
-            buildTeam();
-            break;
-        }
-      });
-  }
   
   function createEngineer() {
     inquirer

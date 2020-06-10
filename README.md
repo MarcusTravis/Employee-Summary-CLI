@@ -20,6 +20,9 @@ This is a Node CLI(Command-line interface) that takes in information about emplo
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
 
+### Example:
+![video of app](./Develop/images/TeamGIF.gif)
+
 ### Prerequisites
 
 Web browser

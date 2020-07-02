@@ -5,17 +5,16 @@
 
 ## Description
 
-This is a Node CLI(Command-line interface) that takes in information about employees and generates an HTML webpage that displays summaries for each person.
+This is a Node CLI (Command-line interface) that takes in information about employees and generates an HTML webpage that displays summaries for each person.
 
 ## Table of Contents
 
+* [Video Example](#video-example)
 * [Prerequisites](#prerequisites)
 * [Installing](#Installing)
-* [Running the tests](#running-the-tests)
 * [Deployment](#deployment)
 * [Built With](#built-with)
 * [Contributing](#contributing)
-* [Version](#version)
 * [Authors](#authors)
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
@@ -33,11 +32,6 @@ Node.js
 
 Download and Install Node.js before trying to use this repository. You can download it here: https://nodejs.org/en/download/
 
-
-## Running the tests
-
-(Will update after tests are in place)
-
 ## Deployment
 
 Run index.js in node.js or through the command line while in the folder where this repo is cloned or downloaded with the command: node index.js
@@ -51,10 +45,6 @@ Run index.js in node.js or through the command line while in the folder where th
 ## Contributing
 
 UofA code bootcamp classcode UofA-CHA-FSF-FT-04-2020-U-C-M-F
-
-## Version
-
-We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
